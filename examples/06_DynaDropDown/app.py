@@ -46,7 +46,6 @@ class App:
         self.ctrl.simput_apply = self.simput_widget.apply
         self.ctrl.simput_reset = self.simput_widget.reset
         self.ctrl.simput_reload_domain = self.simput_widget.reload_domain
-        # self.ctrl.simput_reload_data = self.simput_widget.reload_data
 
         # Build UI
         self.ui = self._build_ui()

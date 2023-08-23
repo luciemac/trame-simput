@@ -1,0 +1,12 @@
+<layouts>
+    <ui id="DynamicModel">
+        <col>
+            <input name="Name" />
+            <input name="Type" />
+            <proxy name="Type" />
+            <!-- <input name="Parameters" /> -->
+            <!-- <text content="Parameters" /> -->
+            <proxy name="Parameters" />
+        </col>
+    </ui>
+</layouts>

@@ -1,0 +1,38 @@
+Parameter:
+  _label: Parameter 1
+  Value1:
+    _label: Value 1
+    type: string
+  Value2:
+    _label: Value 2
+    type: float64
+
+Parameter2:
+  _label: Parameter 2
+  Value1:
+    _label: Parameter 2 - Value 1
+    type: string
+  Value2:
+    _label: Parameter 2 - Value 2
+    type: float64
+
+DynamicModel:
+  _label: Model with dynamic parameters
+  Name:
+    _label: Model Name
+    type: string
+    initial: My Dynamic Model 0
+  Type:
+    _label: Model Type
+    type: string
+    domains:
+      - type: LabelList
+        values:
+          - text: Type 1
+            value: type1
+          - text: Type2
+            value: type2
+  Parameters:
+    _label: Main model Parameters
+    type: proxy
+    _ui: skip

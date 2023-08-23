@@ -66,7 +66,6 @@ class VuetifyResolver:
                         attributes[":min"] = str(value_range[0])
                         attributes[":max"] = str(value_range[1])
                     widget = "sw-slider"
-
                 if ctype == "UI":
                     attributes.update(domain.get("properties", {}))
                     custom_widget = domain.get("widget", None)
