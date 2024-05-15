@@ -1,0 +1,26 @@
+Company:
+  _label: Company Information
+  Name:
+    _label: Company Name
+    type: string
+    initial: MyCompany
+  Location:
+    _label: Company Location
+    type: string
+    initial: France
+
+Person:
+  _label: Personal Information
+  FirstName:
+    _label: First Name
+    type: string
+    initial: John
+  LastName:
+    _label: Last Name
+    type: string
+    initial: Doe
+  Companies:
+    _label: Companies
+    type: proxies_list
+    _subproxy_type: Company
+    initial: []

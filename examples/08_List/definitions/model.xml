@@ -1,0 +1,14 @@
+<layouts>
+    <ui id="Person">
+        <col>
+            <input name="FirstName" />
+            <input name="LastName" />
+        </col>
+    </ui>
+    <ui id="Company">
+        <row>
+            <col><input name="Name" /></col>
+            <col><input name="Location" /></col>
+        </row>
+    </ui>
+</layouts>
